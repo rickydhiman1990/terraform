@@ -5,8 +5,12 @@ name: Devops Practice by ricky Dhiman for master one  #name of the work flow
 # Controls when the workflow will run
 on:
                                   # Triggers the workflow on push or pull request events but only for the "main" branch
-  # push:
-  #   branches: [ "master" ]
+  push:
+    branches:
+      - main
+      - master
+      - feature/learning CICD
+      
   pull_request:
     branches: [ "main" ]
     types:
