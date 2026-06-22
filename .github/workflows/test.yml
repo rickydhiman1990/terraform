@@ -10,7 +10,7 @@ on:
       - main
       - master
       - feature/learning CICD
-      
+
   pull_request:
     branches: [ "main" ]
     types:
@@ -41,4 +41,5 @@ jobs: # job is the highest things in the github as compared to ADO in which stag
           echo Add other actions to build,
           echo test, and deploy your project. , new commet ke liye
           pwd
-          ls -a 
+          ls -a
+          ls -lrth
