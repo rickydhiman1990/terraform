@@ -1,9 +1,9 @@
 variable "vims" {}
 
 data "azurerm_network_interface" "nic" {
-  for_each            = var.vims
-  name                = each.value.vm_nicname
-#   location            = each.value.vm_location
+  for_each = var.vims
+  name     = each.value.vm_nicname
+  #   location            = each.value.vm_location
   resource_group_name = each.value.vm_resource_group_name
 
 }

@@ -1,17 +1,17 @@
 terraform {
-   backend "azurerm" {
+  backend "azurerm" {
     resource_group_name  = "piplineprac-01"
     storage_account_name = "pipe0102"
     container_name       = "rajric"
-    key                  = "ladle.tfstate" 
-    }
+    key                  = "ladle.tfstate"
+  }
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "=4.1.0"
     }
 
-   
+
   }
 }
 
