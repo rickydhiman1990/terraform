@@ -6,6 +6,9 @@ on:
       environment:
         required: true
         type: string
+  push:
+    branches:
+      - main   
 
 permissions:
   id-token: write
