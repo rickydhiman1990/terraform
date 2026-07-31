@@ -1,8 +1,4 @@
-Terraform-Azure-Infrastructure
-
-fetch
-
-Parent and child modules 
+this is the practice for rebase 
 
 
-check for rebase 
+# pwskills
